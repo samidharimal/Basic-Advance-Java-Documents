@@ -1,0 +1,13 @@
+Dependency injection 
+To inilitize the obj during runtime
+Student st = new student();
+interface ko concept package com.example.demo12.dao;
+
+import java.util.List;
+import com.example.demo12.dto.StudentDto;
+
+public interface IStudentService {
+	public List<StudentDto> getStudents();
+
+}
+photo cha copya

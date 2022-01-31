@@ -1,0 +1,26 @@
+jsp tag
+-scriptlet<% java %>
+-declaration<%! function %>
+-expresssion<%= variable %>
+jsp implicit object
+- set of predefine object
+i)out=for output generation
+ii)request=users request access
+iii)response=to redirect to other pages
+iv)session=session ma value set and get
+v)exception=to handle exception
+vi)application=2 ta user ko context ma
+vii)page
+viii)pagecontext
+ix)config
+
+scope-page-(amaong the page)request-(page ma browse garda access garnu paryo vani euta user ko whole lai)session -(amaong the contextcof two user)application
+i)request
+getParameter(String)
+getParametervalues((String)I)
+getSession()
+getCookies()
+
+<input type ="text" name="name>
+request getParameter("name")
+for check box reuest.getParameterValues(multiple box ko lagi)

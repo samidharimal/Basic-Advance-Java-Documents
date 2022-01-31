@@ -1,0 +1,32 @@
+database in jsp
+-jdbc
+mvc model view controller
+table 
+user
+id name user
+java class (pojo)=DTO
+class user{
+int id;
+String name;
+string pass;
+getter/setter
+}
+DBuitt.java
+-db conncetion
+Class DBuilt{
+conncection get Connection()
+{}
+}
+user controller.java 
+(-to get data from jsp
+- to perform curd operation )
+2nd dec
+create package in src/main and then create package then crete DBUtil class
+localhost/test","root",""
+localhos = dbname
+test=user
+""= password
+com.test.dto(data transfer object)
+crete this package in  the previous package then decleare variable id,name,string
+then in source  generate getter and setter 
+

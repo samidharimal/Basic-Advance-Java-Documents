@@ -1,0 +1,30 @@
+spring
+-java base mvc framework
+controller view model
+-completely mvc
+client le controller ko through bata view magcha model bata data leucha controller le ani view ma
+-standard way ma mvc lai
+-open source
+-enrich model
+
+-maven built tool
+pom.xml = 
+start.spring.io ma gayra online rakhnu milcha ani import garni ecclipse ma
+maven repository in online sab kura cha
+jstl = java standard tag library 
+string ma hune tag jun java le banai deko cha 
+<c:if>
+<c:for>
+yo enable garna lai euta extra dependicies rakhdinu paryo
+pom ma dependencies extra jar haru chaini vayara maven ma
+if test ani cond uta ko cond
+loop 
+ma item le list 
+var le chai kun chai current variable vanera dekhaucha
+
+login=logincheck=home for homework
+login ma user pas ani sucess vayo vani home
+fail vayo vani chai login.jsp
+
+
+dto create garni ani tesma add garni dto ko class ma variable haru ani haru ani source ma gayara generate getter ra setter

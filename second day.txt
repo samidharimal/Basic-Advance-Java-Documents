@@ -1,0 +1,46 @@
+for array or multiselection in checkbox.jsp [] should be used
+response:
+to send values we use response 
+-to redirect page-
+-to set cokies 
+-to send error
+response.sendRedirect(String)
+response.addCookie(Cookie)
+response.sendError(String)
+
+Session
+time interval btn login to logout
+-to maintain users state
+-to track users activity
+-for security
+=setAttributes(String,object)
+string=key object=value
+-getAttribute(String)
+for how long we can stay in the session
+-setMaxInactiveInterval(long)
+after logout to kill session
+-invalidate()[]
+cookie
+-set of information store in client machine
+Cokkie = new Cookie(string,string)
+setvalue()
+getvalue()
+setMaxAge(long)- to set expiry
+getName()
+-to set
+response.addCookie(Cookie)
+-to get
+request.getCookies()[]
+Exception handling in jsp:
+<% @ page
+(@ page directive)to include information about the page
+is error page = true/false
+error page ="Name of error page
+redirect to common error page 
+<%@ page errorpage=error.jsp %>
+exception =to get information about error
+
+include directive
+-to include various resource in a page eg.html,jsp,text
+<% @ include file = "head.jsp"%>
+
